@@ -1,6 +1,6 @@
 # Self-Debugging CLI Tool 
 
-A powerful CLI template that wraps any Python function and, on error, automatically invokes GPT-4 to explain the traceback and suggest fixes.
+A powerful CLI template that wraps any Python function and, on error, automatically invokes GPT-4 to explain the traceback and suggest fixes.  
 
 ## Features 
 
