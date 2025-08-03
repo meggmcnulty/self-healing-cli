@@ -1,8 +1,8 @@
-# Self-Debugging CLI Tool 🚀
+# Self-Debugging CLI Tool 
 
 A powerful CLI template that wraps any Python function and, on error, automatically invokes GPT-4 to explain the traceback and suggest fixes.
 
-## Features ✨
+## Features 
 
 - **Automatic Error Analysis**: When a function fails, GPT-4 automatically analyzes the error and provides detailed explanations
 - **Smart Fix Suggestions**: Get specific code fixes and workarounds for common Python errors
@@ -11,7 +11,7 @@ A powerful CLI template that wraps any Python function and, on error, automatica
 - **Flexible Configuration**: Environment-based configuration with fallback options
 - **CLI Interface**: Run any Python script with self-debugging enabled
 
-## Installation 📦
+## Installation 
 
 1. **Clone the repository:**
    ```bash
@@ -33,7 +33,7 @@ A powerful CLI template that wraps any Python function and, on error, automatica
    # Get your key from: https://platform.openai.com/api-keys
    ```
 
-## Quick Start 🚀
+## Quick Start 
 
 ### Method 1: Using the Decorator
 
@@ -60,7 +60,7 @@ python self_debug_cli.py --debug your_script.py
 python self_debug_cli.py --api-key your_key your_script.py
 ```
 
-## Examples 📚
+## Examples 
 
 ### Basic Example
 
@@ -244,7 +244,7 @@ export SELF_DEBUG_MODE=false
 python self_debug_cli.py --no-debug your_script.py
 ```
 
-## Contributing 🤝
+## Contributing 
 
 1. Fork the repository
 2. Create a feature branch
@@ -252,14 +252,12 @@ python self_debug_cli.py --no-debug your_script.py
 4. Add tests
 5. Submit a pull request
 
-## License 📄
+## License 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments 🙏
-
-- Built with [OpenAI GPT-4](https://openai.com/gpt-4)
-- Beautiful terminal output powered by [Rich](https://rich.readthedocs.io/)
+## Acknowledgments 
+- Terminal output powered by [Rich](https://rich.readthedocs.io/)
 - CLI framework by [Click](https://click.palletsprojects.com/)
 
 ---
